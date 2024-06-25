@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Abra essas imagens em diversos dispositivos diferentes</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/pequeno.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/medio.png" type="image/png">
+        <img src="imagem/grande.png" alt="imagem flexível">
+    </picture>
+
+    <h2>Som pika</h2>
+    <p>Se liga nesse som</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/0049.mpeg" type="audio/mpeg">
+    </audio>
+</body>
+</html>

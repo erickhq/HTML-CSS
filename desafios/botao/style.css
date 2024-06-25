@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #201050, #301040);
+
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border: 100px;
+    box-shadow: 5px 5px 15px rgb(112, 49, 104);
+    border-radius: 10px;
+}
+
+h2 {
+    color: rgb(173, 133, 211);
+}
+
+h1#ti1 {
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+button {
+    border: 2px solid black;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+    border-radius: 20px;
+
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: rgb(173, 133, 211);
+    cursor: pointer
+}
+
+a#pagina {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a#pagina:hover {
+    color: black;
+}
