@@ -5,4 +5,4 @@
 
 Erick aqui!
 
-<a href="https://erickhq.github.io/HTML-CSS/desafiocss/historia"> Clique aqui! </a>
+<a href="https://erickhq.github.io/HTML-CSS/desafios/historia"> Clique aqui! </a>
