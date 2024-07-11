@@ -13,39 +13,46 @@
         table {
             background-color: blanchedalmond;
             width: 400px;
+            height: 400px;
             border-collapse: collapse;
             margin: auto;
-        }
-
-        tr#linha2 {
-            background-color: gray;
         }
 
         td {
             border: 1px solid black;
             padding: 5px;
+            text-align: center;
+            vertical-align: top;
         }
 
         h1 {
             text-align: center;
             padding: 10px;
         }
+
+        tr#cima {
+            vertical-align: top;
+        }
+
+        td#baixo {
+            vertical-align: bottom;
+        }
     </style>
 </head>
 <body>
     <h1>Minha primeira tabela</h1>
     <table>
-        <tr>
+        <tr id="cima">
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr id="linha2">
+        <tr id="meio">
             <td>A2</td>
-            <td>B2</td>
+            <td id="baixo">B2</td>
             <td>C2</td>
         </tr>
-        <tr>
+        <tr id="meio">
             <td>A3</td>
             <td>B3</td>
             <td>C3</td>
