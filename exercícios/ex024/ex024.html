@@ -4,9 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background-color: gray;
+        }
+
+        h1{
+            text-align: center;
+        }
+
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 400px;
+            font-size: 20px;
+            position: relative;
+        }
+
+        caption {
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        thead {
+            background-color: rgb(84, 121, 153);
+            padding: 10px;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        tbody > tr:nth-child(2n) {
+            background-color: lightslategray;
+        }
+
+        td.popu {
+            text-align: center;
+        }
+
+        tfoot {
+            background-color: rgb(84, 121, 153);
+        }
+    </style>
 </head>
 <body>
     <h1>Uso das tabelas</h1>
-    
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col" style="width: 200px;">Estado</th>
+                <th scope="col">Polulação</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="popu">49.919.049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="popu">21.168.791</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="popu">17.821.234</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>88.909.074</strong></td>
+            </tr>
+        </tfoot>
+    </table>
 </body>
 </html>
