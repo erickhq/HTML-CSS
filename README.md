@@ -3,6 +3,6 @@
 
  Estou aprendendo a criar sites e agora vou gerenciar meus reporsitórios!
 
-<a href="https://erickhq.github.io/HTML-CSS/desafios/historia"> Clique aqui! </a>
+<a href="https://erickhq.github.io/HTML-CSS/exercícios/ex026/mq005"> Clique aqui! </a>
 
 seguindo no deselvolvimento de aprendizado
